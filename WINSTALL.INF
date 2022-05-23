@@ -1,0 +1,52 @@
+[The title of your application]
+$title=Clustering
+
+[Default target directory]
+$target=C:\cluster
+
+[Disk space needed for the installation - in bytes]
+$space=1700000
+
+[Files to be copied; "$disk 1 =" to "$disk 20 ="; you can use wildcards]
+$disk 1 = cluster.exe;cluster.hlp;*.dll;titel.bm_;*.dat
+
+[Other target subdirectories under default directory tree]
+$dest\data=dis.dat;gleichve.dat;dreiclus.dat;umschlie.dat;test10.dat;test15.dat
+
+[Files to install to Windows directory}
+
+[Files to install to Windows SYSTEM directory}
+
+[Program Manager group name]
+$group=Clustering
+
+[program(s) to create Program Manager icons for]
+
+
+
+[program(s) to create Program Manager icons for; MAX=12 icons in all]
+[format= CommandLine;Icon Title]
+$icon=$DEST\cluster.exe;Clustering
+
+[Program(s) to run after completing installation]
+
+[put a ";" at the start of the next line to have a normal main window]
+$window=MAXIMIZE
+
+[comment and use this to change the background color of the window]
+[valid values are 0 to 4]
+$WINDOW-BACKGROUND=1
+
+[comment and use this to change the background of the text]
+[3 RGB values, or 1 long integer value
+$TEXT-BACKGROUND=192,192,192
+
+[uncomment this line to NOT automatically set the check box for PROGMAN group]
+;$SETCHECKBOX
+
+[comment this line to enable the final "installation completed" dialog]
+$NO-END-DIALOG
+
+[comment this line to enable the dialog that offers to add the target]
+[directory to the PATH statement in AUTOEXEC.BAT]
+$NO-PATH-DIALOG

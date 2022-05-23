@@ -1,0 +1,17 @@
+;-------------------------------------------------------------------------
+;
+; Modul-Definition fuer das Projekt Diplom
+;
+; Wolfgang Lauffher
+;
+; August 1994
+;-------------------------------------------------------------------------
+
+NAME		DIPLOM
+DESCRIPTION	'Diplomarbeit, (c) W.Lauf'
+EXETYPE	WINDOWS
+STUB		'WINSTUB.EXE'
+CODE		PRELOAD MOVEABLE DISCARDABLE
+DATA		PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE	8192
+STACKSIZE   32768

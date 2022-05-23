@@ -1,0 +1,18 @@
+[Options]
+Root=d:\bc4\diplom
+Compress=Off
+Contents=Inhalt
+Copyright=Wolfgang Lauffher, 1996
+Errorlog=DIPLOM.ERR
+Optcdrom=Off
+Report=On
+Title=Clustering - Hilfe
+Warning=1
+[Files]
+D:\BC4\DIPLOM\DIPLOM.RTF
+[Config]
+BrowseButtons()
+[Map]
+#include <DIPLOM.H>
+[Windows]
+main="Clustering - Hilfe",,,,
